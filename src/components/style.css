@@ -1,0 +1,233 @@
+.Homepage{
+    padding: 20px;
+}
+
+.section{
+    padding: 20px;
+    margin-left: 80px;
+    color: green;
+}
+    
+.header{
+    text-align: center;
+}   
+
+.NavBar{
+ background-color: rgb(150, 113, 23);
+ padding: 20px;
+ 
+}
+
+/* style.css */
+
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Donations page styles */
+  .donations-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .donation-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .donation-description, .donation-options {
+    flex: 1;
+    margin: 0 10px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li:before {
+    content: "\2022";
+    color: #4caf50;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+  
+  figure {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .donation-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  figcaption {
+    font-style: italic;
+  }
+  
+  .donate-button-container {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .donate-btn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate-btn:hover {
+    background-color: #45a049;
+  }
+  
+  footer {
+    text-align: center;
+    font-style: italic;
+  }
+  
+  .about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .member-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .member-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .member-details {
+    padding: 10px;
+  }
+  span{
+    padding: 20px;
+  }
+
+  /* Footer.css */
+
+.footer {
+    background-color: #4CAF50; /* A shade of green */
+    padding: 20px;
+    text-align: center;
+    color: white; /* Text color */
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .contact-info {
+    margin-bottom: 10px;
+  }
+  
+  .info {
+    font-size: 18px;
+    margin: 5px 0;
+    color: white;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #FFD700; /* A shade of yellow for links */
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .additional-text {
+    font-size: 14px;
+    color: #DDDDDD; /* A slightly lighter shade for additional text */
+  }
+  /* style.css */
+
+/* Basic reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333; /* Change the background color */
+    padding: 15px 20px; /* Adjust padding */
+    text-align: center;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between links */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* Change link text color */
+    font-size: 18px; /* Adjust font size */
+    transition: color 0.3s ease; /* Add transition for smoother hover effect */
+  
+    /* Optional: Add hover effect */
+    /* Uncomment the below lines if you want a hover effect */
+    
+    &:hover {
+      color: #ff9900; 
+    }
+    
+  }
+  
